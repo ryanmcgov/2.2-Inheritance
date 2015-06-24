@@ -2,9 +2,11 @@
 
 # Dinos
   * @is_extinct
-  * @mate
-  * @eat
-  * @sleep
+  * @size
+  * @movement
+  * .mate
+  * .eat
+  * .sleep
 
 
 
