@@ -3,7 +3,7 @@ class Dinosaur
   attr_accessor :is_extinct, :size, :movement, :era, :in_movie
 
   def initialize
-    @is_extinct = true
+    self.is_extinct = true
   end
 
   def sleep(time)
@@ -26,7 +26,7 @@ class Carnivore < Dinosaur
   attr_accessor :diet
 
   def initialize
-    @diet = "meat"
+    self.diet = "meat"
     # Calls back to initialize in superclass, so each new instance has is_extinct
     super
   end
@@ -40,7 +40,7 @@ class Herbivore < Dinosaur
   attr_accessor :diet
 
   def initialize
-    @diet = "plants"
+    self.diet = "plants"
     super
   end
 
